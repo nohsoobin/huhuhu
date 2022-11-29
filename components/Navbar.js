@@ -10,13 +10,10 @@ export default function Navbar() {
           <a>Home</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a>수빈공주에 대해</a>
         </Link>
         <Link href="/profile">
-          <a>Profile</a>
-        </Link>
-        <Link href="/coins">
-          <a>Coins</a>
+          <a>수빈공주의 프로필</a>
         </Link>
         <Link href="/contact">
           <a>자기소개</a>

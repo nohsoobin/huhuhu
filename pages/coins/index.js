@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React from 'react'
-import Coin from '../../components/Coin'
 import styles from '../../styles/Coin.module.css'
 
 export default function CoinList({ coinData }) {

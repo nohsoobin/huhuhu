@@ -11,8 +11,8 @@ export default function AboutPage() {
         <title>About</title>
       </Head>
       <main className={styles.main}>
-        <h1>About </h1>
-        <p>안녕하세요 {name} 님!</p>
+        <h1>수빈이 세상</h1>
+        <p>안녕하세요 {name} 님! 어서오십시오.</p>
       </main>
     </div>
   )
