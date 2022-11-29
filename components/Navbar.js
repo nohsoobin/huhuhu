@@ -16,7 +16,7 @@ export default function Navbar() {
           <a>수빈공주의 프로필</a>
         </Link>
         <Link href="/contact">
-          <a>자기소개</a>
+          <a>수빈공주 소개</a>
         </Link>
       </div>
     </div>
