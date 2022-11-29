@@ -3,7 +3,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function AboutPage() {
-  const name = '이병천'
+  const name = '수빈공주'
 
   return (
     <div className={styles.container}>
