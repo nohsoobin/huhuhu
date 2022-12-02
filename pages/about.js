@@ -1,19 +1,27 @@
-import Head from 'next/head'
 import React from 'react'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
-export default function AboutPage() {
-  const name = '수빈공주'
-
+export default function contact() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>About</title>
-      </Head>
-      <main className={styles.main}>
-        <h1>수빈이 세상</h1>
-        <p>안녕하세요 {name} 님! 어서오십시오.</p>
-      </main>
+    <div className="mx-auto max-w-screen-md bg-white-100">
+      <div className="flex flex-row justify-between">
+        <div className="basis-1/2">
+          <h1>자기소개 </h1>
+          <p> 이름: 수빈공주</p>
+          <p>나이: 21세</p>
+          <p>전화번호: 010-5499-7258</p>
+          <p>사는 곳: 서울시 강서구 화곡6동 ---</p>
+          <div className="basis-1-2">
+            <Image
+              src="/images/me1.jpg"
+              width={50}
+              height={50}
+              layout="responsive"
+            ></Image>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
+
