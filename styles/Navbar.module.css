@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(200, 270, 200);
   width: 100%;
   height: 50px;
   display: flex;
@@ -8,7 +8,7 @@
 }
 
 .links {
-  color: white;
+  color: black;
   display: flex;
   width: 100%;
   height: 100%;
