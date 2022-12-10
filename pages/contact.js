@@ -14,6 +14,9 @@ export default function Navbar() {
         <li>
           <a href="https://blog.naver.com/nohsoobin18">노수빈 네이버 블로그</a>
         </li>
+        <li>
+          <a href="https://booksite-one.vercel.app/">노수빈의 팀 프로젝트</a>
+        </li>
       </ul>
     </div>
   )
