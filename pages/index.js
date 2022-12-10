@@ -16,8 +16,8 @@ export default function AboutPage() {
         <div>
           <Image
             src="/images/hi.jpg"
-            width={100}
-            height={50}
+            width={150}
+            height={150}
             layout="responsive"
           ></Image>
         </div>
