@@ -14,13 +14,12 @@ export default function AboutPage() {
         <h1>노수빈의 개인용 포트폴리오</h1>
         <p>안녕하세요 {name} 님! 어서오십시오.</p>
         <div>
-          <img
+          <Image
             src="/images/hi.jpg"
-            alt="hi"
-            width={500}
-            height={500}
+            width={50}
+            height={50}
             layout="responsive"
-          />
+          ></Image>
         </div>
       </main>
     </div>
