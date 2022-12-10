@@ -13,6 +13,7 @@ export default function AboutPage() {
       <main className={styles.main}>
         <h1>노수빈의 개인용 포트폴리오</h1>
         <p>안녕하세요 {name} 님! 어서오십시오.</p>
+        <img src="/images/hi.jpg" alt="hi" width="200px" />
       </main>
     </div>
   )
